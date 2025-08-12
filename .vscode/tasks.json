@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compilar main.c (GCC)",
+			"type": "shell",
+			"command": "gcc exerciciosResolvidos/exercicio1/codigos/main.c exerciciosResolvidos/exercicio1/codigos/ponto.c -o exerciciosResolvidos/exercicio1/codigos/main.exe",
+			"args": [],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
